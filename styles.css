@@ -1,0 +1,83 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #779d6b;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* border: 10px solid #4CAF50; */
+}
+
+.survey-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.survey-container h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.survey-container p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /* font-weight: bold; */
+}
+
+.survey-container label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.survey-container input[type="text"], 
+.survey-container input[type="email"],
+.survey-container input[type="tel"],
+.survey-container select[id="country"],
+.survey-container textarea {
+    width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.radio-box {
+    padding: 10px;
+    border: 2px solid #ccc;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radio-group {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+.radio-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+
+.survey-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+}
